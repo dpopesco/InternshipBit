@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetFinderApi Suite" parallel="classes" thread-count="1" configfailurepolicy="continue">
+    <test name="PetFinderTest">
+        <classes>
+            <class name="qaa.be.test.petfinderapi.post.CreatePostTest"/>
+            <class name="qaa.be.test.petfinderapi.post.EditPostTest"/>
+            <class name="qaa.be.test.petfinderapi.post.GetAllUserPostsTest"/>
+            <class name="qaa.be.test.petfinderapi.post.GetPostByIdTest"/>
+            <class name="qaa.be.test.petfinderapi.post.UpdatePostStatusTest"/>
+            <class name="qaa.be.test.petfinderapi.post.GetAllPostByPostStateIdAndPetTypes"/>
+            <class name="qaa.be.test.petfinderapi.post.DeletePostTest"/>
+        </classes>
+    </test>
+</suite>

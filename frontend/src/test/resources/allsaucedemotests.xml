@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" configfailurepolicy="continue">
+    <test name="RegressionTest">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell">
+                    <![CDATA[
+                        bugAnnotated = method.getAnnotation(qaa.internship.util.Bug.class);
+                        if (bugAnnotated == null) {
+                        return true;
+                        }
+                        return false;
+                    ]]>
+                </script>
+            </method-selector>
+        </method-selectors>
+        <packages>
+            <package name="qaa.fe.saucedemo.*"></package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DummyApi Suite" parallel="classes" thread-count="4" configfailurepolicy="continue">
+    <test name="DummyTest">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell">
+                    <![CDATA[
+                        bugAnnotated = method.getAnnotation(qaa.internship.util.Bug.class);
+                        if (bugAnnotated == null) {
+                        return true;
+                        }
+                        return false;
+                    ]]>
+                </script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="qaa.be.test.dummyapi.user.UpdateUserTest"/>
+            <class name="qaa.be.test.dummyapi.user.GetUsersTest"/>
+            <class name="qaa.be.test.dummyapi.user.DeleteUserTest"/>
+            <class name="qaa.be.test.dummyapi.user.CreateUserTest"/>
+            <class name="qaa.be.test.dummyapi.tag.GetTagsTest"/>
+            <class name="qaa.be.test.dummyapi.post.DELETEPostsTest"/>
+            <class name="qaa.be.test.dummyapi.post.GETPostsPaginationTest"/>
+            <class name="qaa.be.test.dummyapi.post.GETPostsTest"/>
+            <class name="qaa.be.test.dummyapi.post.POSTPostsTest"/>
+            <class name="qaa.be.test.dummyapi.post.PUTPostsTest"/>
+            <class name="qaa.be.test.dummyapi.comment.DELETECommentsTest"/>
+            <class name="qaa.be.test.dummyapi.comment.GETCommentsPaginationTest"/>
+            <class name="qaa.be.test.dummyapi.comment.GETCommentsTest"/>
+            <class name="qaa.be.test.dummyapi.comment.POSTCommentsTest"/>
+        </classes>
+    </test>
+</suite>

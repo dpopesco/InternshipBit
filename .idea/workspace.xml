@@ -4,40 +4,622 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3294202-6b73-4270-b2eb-02cf604fada7" name="Changes" comment="" />
+    <list default="true" id="81c8e3c0-1375-48bb-8588-3e6a5c963d74" name="Changes" comment="Modified to add images in form-data">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2N5xi1EzO45vf60kt4ixsJdvFN7" />
+  <component name="ProjectId" id="2Lg9Ktlk3KrE3bTDdsBCssDEwnm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/V3790528/DP Projects&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\V3790528\DP Projects" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucketGitHub" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\backend\src\main\java\qaa\be\petfinderapi" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\frontend" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\backend\src\test\java\qaa\be\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\common\src\main\resources" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\frontend" />
+      <recent name="C:\Users\V3790528\DP Projects\InternshipBitBucket\backend\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="qaa.be.test.post" />
+      <recent name="qaa.be.requests" />
+      <recent name="qaa.be.models.error" />
+      <recent name="qaa.be.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CreatePostTest.testCreatePost">
+    <configuration name="CreatePostTest.testCreatePost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaa.be.test.petfinderapi.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaa.be.test.petfinderapi.post" />
+      <option name="MAIN_CLASS_NAME" value="qaa.be.test.petfinderapi.post.CreatePostTest" />
+      <option name="METHOD_NAME" value="testCreatePost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatePostTest.testCreatePostWithoutToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaa.be.test.petfinderapi.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaa.be.test.petfinderapi.post" />
+      <option name="MAIN_CLASS_NAME" value="qaa.be.test.petfinderapi.post.CreatePostTest" />
+      <option name="METHOD_NAME" value="testCreatePostWithoutToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest.loginWithInvalidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaa.be.test.petfinderapi.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaa.be.test.petfinderapi.user" />
+      <option name="MAIN_CLASS_NAME" value="qaa.be.test.petfinderapi.user.CreateUserTest" />
+      <option name="METHOD_NAME" value="loginWithInvalidInputs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest.loginWithoutPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaa.be.test.petfinderapi.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaa.be.test.petfinderapi.user" />
+      <option name="MAIN_CLASS_NAME" value="qaa.be.test.petfinderapi.user.CreateUserTest" />
+      <option name="METHOD_NAME" value="loginWithoutPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserTest.getUserById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qaa.be.test.petfinderapi.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qaa.be.test.petfinderapi.user" />
+      <option name="MAIN_CLASS_NAME" value="qaa.be.test.petfinderapi.user.GetUserTest" />
+      <option name="METHOD_NAME" value="getUserById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CreatePostTest.testCreatePost" />
+        <item itemvalue="TestNG.GetUserTest.getUserById" />
+        <item itemvalue="TestNG.CreateUserTest.loginWithoutPassword" />
+        <item itemvalue="TestNG.CreateUserTest.loginWithInvalidInputs" />
+        <item itemvalue="TestNG.CreatePostTest.testCreatePostWithoutToken" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b3294202-6b73-4270-b2eb-02cf604fada7" name="Changes" comment="" />
-      <created>1678967869941</created>
+      <changelist id="81c8e3c0-1375-48bb-8588-3e6a5c963d74" name="Changes" comment="" />
+      <created>1676281798753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678967869941</updated>
+      <updated>1676281798753</updated>
     </task>
+    <task id="LOCAL-00059" summary="Added tests">
+      <created>1677144715067</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1677144715067</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Modified">
+      <created>1677146686208</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1677146686208</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Modified with suggestions">
+      <created>1677149182466</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1677149182466</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Modified with suggestions">
+      <created>1677155190755</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1677155190755</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Modified some methods to implement from interaction class">
+      <created>1677157552292</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1677157552293</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Modified some methods to implement from interaction class">
+      <created>1677168836932</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1677168836932</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Changed generic type in order to access methods from InventoryPage">
+      <created>1677170716342</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1677170716342</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Some changes">
+      <created>1677171263270</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1677171263270</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Some changes">
+      <created>1677231193820</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1677231193820</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Added to sort ascending and descending by name">
+      <created>1677236951424</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1677236951424</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Some changes">
+      <created>1677237382105</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1677237382106</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Modified with suggestions">
+      <created>1677246640489</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1677246640490</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Modified with suggestions">
+      <created>1677483993646</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483993646</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Added CartItemComponent, Product model, to save response from product page and test to verify if correct product is added to cart">
+      <created>1677493510115</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493510116</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Modified and added another test">
+      <created>1677494596699</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1677494596699</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Added test">
+      <created>1677495540954</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495540955</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Added test">
+      <created>1677575194739</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677575194739</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added test">
+      <created>1677577154710</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577154710</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Some changes">
+      <created>1677577369665</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577369665</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Some changes">
+      <created>1677577459849</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577459849</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Some changes">
+      <created>1677577666533</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577666533</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added tests">
+      <created>1677581068008</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1677581068008</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Added tests and Checkout Component">
+      <created>1677654075539</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677654075541</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Modified with suggestions">
+      <created>1677656977931</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1677656977931</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Modified with suggestions">
+      <created>1677657566823</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1677657566823</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Modified with suggestions">
+      <created>1677667497357</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1677667497357</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Added test for totalPrice in checkout and merged with updates">
+      <created>1677669669315</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1677669669315</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Modified with suggestions">
+      <created>1677752256668</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1677752256669</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Some changes">
+      <created>1677755120539</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1677755120539</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Added selenium grid setup in Docker using docker-compose.yml">
+      <created>1678093697373</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1678093697374</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Modified with suggestions">
+      <created>1678094848078</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1678094848078</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Added more sessions, and parallel executing">
+      <created>1678100683383</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1678100683383</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Some changes">
+      <created>1678117221233</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1678117221233</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Some changes">
+      <created>1678117836302</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1678117836302</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Modified with changes">
+      <created>1678177019182</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1678177019182</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Modified with changes">
+      <created>1678179045709</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1678179045709</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Added models">
+      <created>1678183848358</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1678183848359</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Added user requests and ApiContractPet">
+      <created>1678262339924</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1678262339924</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Added one tests for user">
+      <created>1678263269878</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1678263269878</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Added methods to save tocken and user id">
+      <created>1678265220195</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1678265220195</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Some changes">
+      <created>1678268025082</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1678268025082</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Some changes">
+      <created>1678268221752</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1678268221752</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Added test with get user by id">
+      <created>1678272198467</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1678272198467</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Added method to apicontract and model for 2 types of response error">
+      <created>1678345320423</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1678345320424</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Added jsonproperty to error models and set for error fields for 2 types of errors">
+      <created>1678431911091</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1678431911091</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Some changes">
+      <created>1678432090695</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1678432090695</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Some changes">
+      <created>1678604651988</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1678604651988</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Some changes and added negative scenarios for User Register and Login">
+      <created>1678870595628</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870595628</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Modified to add images in form-data">
+      <created>1678963969130</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1678963969131</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed with required" />
+    <MESSAGE value="Modified" />
+    <MESSAGE value="Modified some methods to implement from interaction class" />
+    <MESSAGE value="Changed generic type in order to access methods from InventoryPage" />
+    <MESSAGE value="Added to sort ascending and descending by name" />
+    <MESSAGE value="Added CartItemComponent, Product model, to save response from product page and test to verify if correct product is added to cart" />
+    <MESSAGE value="Modified and added another test" />
+    <MESSAGE value="Added test" />
+    <MESSAGE value="Added tests" />
+    <MESSAGE value="Added tests and Checkout Component" />
+    <MESSAGE value="Added test for totalPrice in checkout and merged with updates" />
+    <MESSAGE value="Added selenium grid setup in Docker using docker-compose.yml" />
+    <MESSAGE value="Modified with suggestions" />
+    <MESSAGE value="Added more sessions, and parallel executing" />
+    <MESSAGE value="Modified with changes" />
+    <MESSAGE value="Added models" />
+    <MESSAGE value="Added user requests and ApiContractPet" />
+    <MESSAGE value="Added one tests for user" />
+    <MESSAGE value="Added methods to save tocken and user id" />
+    <MESSAGE value="Added test with get user by id" />
+    <MESSAGE value="Added method to apicontract and model for 2 types of response error" />
+    <MESSAGE value="Added jsonproperty to error models and set for error fields for 2 types of errors" />
+    <MESSAGE value="Some changes" />
+    <MESSAGE value="Some changes and added negative scenarios for User Register and Login" />
+    <MESSAGE value="Modified to add images in form-data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified to add images in form-data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/src/main/java/qaa/be/petfinderapi/requests/UsersRequests.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
